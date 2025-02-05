@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: #fbf5dd;
+  padding-top: 80px;
+  margin: 0;
+}
+
+h2 {
+  color: #fbf5dd;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  color: #fbf5dd;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 0;
+  text-align: left;
+}
+
+.top-div {
+  background-color: #16404d;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  display: block;
+  justify-items: center;
+  align-items: center;
+}
+
+header {
+  background-color: #fbf5dd;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: #fbf5dd;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+main {
+  background-color: #a6cdc6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #16404d;
+}
+
+hr {
+  border: 3px dotted #16404d;
+  width: 50%;
+  border-bottom: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.parent-grid-container {
+  display: grid;
+  justify-items: start;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: left;
+  width: 50%;
+  margin: 70px auto 0 auto;
+  padding: 0;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+.contact {
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.intro {
+  width: 30%;
+  padding: 10px;
+}
+
+.contact-section {
+  margin: 50px;
+}
+
+.title-mid-section {
+  text-align: left !important;
+  padding: auto;
+  margin: auto;
+}
+
+.button {
+  background-color: #16404d;
+  color: #fbf5dd;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 30px;
+
+  text-decoration: none;
+}
+
+.button-div {
+  text-align: center;
+  margin: 50px;
+}
+
+.footer-div {
+  background-color: #dda853;
+  color: #fbf5dd;
+  padding: 50px;
+  height: 100px;
+  margin-bottom: 30pü;
+}
+
+a {
+  color: #16404d;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
